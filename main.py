@@ -32,7 +32,7 @@ if l_username == r_username and l_nim == r_nim:
         else:
             print("Total harga: ", total_barang)
 
-        # Menanyakan kepada pengguna jika ingin menghitung lagi
+        # Menanyakan apakah ingin menghitung lagi
         repeat_program = input("Apakah Anda ingin menghitung lagi? (y/n): ")
 
     # Pesan terima kasih jika keluar dari loop
